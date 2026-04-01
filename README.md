@@ -7,7 +7,7 @@ The objective is to ensure **zero downtime** and seamless content delivery for e
 ---
 
 ## 🏗️ Architecture Diagram
-![AWS Architecture](architecture.png)
+![AWS Architecture](images/architecture.png)
 
 ---
 
