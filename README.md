@@ -61,6 +61,14 @@ docker build -t aws-app .
 ---run container
 docker run -p 8080:80 aws-app
 
+## 🚀 Application Demo
+
+### 🟢 Docker Container Running
+![Docker Running](images/docker-run.png)
+
+### 🟢 Web Application Output
+![App Output](images/app-output.png)
+
 🔧 Project Enhancements
 Added a sample web application to simulate deployment
 Containerized the application using Docker
