@@ -40,3 +40,35 @@ The objective is to ensure **zero downtime** and seamless content delivery for e
 6. **DNS Routing** – Point Route 53 records to CloudFront for global traffic distribution.  
 
 ---
+
+---
+
+## 🐳 Dockerized Application
+
+To demonstrate deployment and DevOps practices, a sample web application has been added and containerized using Docker.
+
+This enhances the project by simulating how applications can be deployed within the designed AWS scalable architecture.
+
+---
+
+## ⚙️ Docker Setup
+
+### 🔹 Build Docker Image
+
+```bash
+docker build -t aws-app .
+
+---run container
+docker run -p 8080:80 aws-app
+
+🔧 Project Enhancements
+Added a sample web application to simulate deployment
+Containerized the application using Docker
+Prepared the project for CI/CD pipeline integration
+Improved project to reflect real-world DevOps workflow
+
+💡 Future Improvements
+Integrate CI/CD pipeline using Jenkins or GitHub Actions
+Deploy Docker container to AWS (ECS/EKS)
+Add Infrastructure as Code (Terraform)
+Implement monitoring with Prometheus & Grafana
