@@ -67,7 +67,7 @@ docker run -p 8080:80 aws-app
 ![Docker Running](images/docker-run.png)
 
 ### 🟢 Web Application Output
-![App Output](images/app-output.png)
+![App Output](images/app_output.png)
 
 🔧 Project Enhancements
 Added a sample web application to simulate deployment
