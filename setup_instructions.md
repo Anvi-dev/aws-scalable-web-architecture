@@ -86,6 +86,21 @@ The goal is to ensure **zero downtime** for end-users while accessing the websit
 
 ---
 
+## Docker Setup
+
+This project includes a sample web app containerized using Docker.
+
+### Build Image
+docker build -t aws-app .
+
+### Run Container
+docker run -p 8080:80 aws-app
+
+## Enhancements
+
+- Added Docker containerization for application deployment
+- Prepared project for CI/CD integration
+
 ## ✅ Final Output
 - Users access website via **Route 53 domain name**.
 - Requests flow through **CloudFront → ALB → Auto Scaling EC2 Web Instances**.
